@@ -1,0 +1,19 @@
+/*Estilo Por: etiqueta html (llamado tambien SELECTOR)*/
+
+p {
+    color: blueviolet;
+    font-size: 40px;
+}
+
+/*Estilo por: class*/
+
+.parrafo {
+    color: red;
+}
+
+/*Estilo por: ID*/
+
+#texto {
+    color: yellow;
+    font-size: 24px;
+}

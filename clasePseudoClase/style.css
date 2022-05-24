@@ -1,0 +1,35 @@
+ .main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+} 
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+} /* Esto significa: agrega este estilo a 
+todas las etiquetas ancla, que esten contenidas
+en una etiqueta con la clase main-nav__item */
+
+/* pseudoCLASE 
+Que define el estilo de UN ESTADO especial de un elemento*/
+.main-nav__item a:hover {
+    color: blue;
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+/* pseudoELEMENTO 
+Que define el estilo de UNA PARTE especifica de un elemento*/
+.main-nav__item a::after {
+    content: " | ";
+}
