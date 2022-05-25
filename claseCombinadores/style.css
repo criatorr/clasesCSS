@@ -1,0 +1,11 @@
+/* HERMANO CERCANO O ADYACENTE */
+/* dale color color rojo a cualquier p
+cercano a h2 o despues de un h2 */
+
+/* h2 + p {
+    color: red;
+} */
+
+h2 ~ p {
+    color: red;
+}
