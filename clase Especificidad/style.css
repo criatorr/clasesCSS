@@ -41,6 +41,6 @@ del boton Blog, que este dentro de un ID main-nav */
     background-color: red;
 }
 
-/* Utilizar especificadores (#ID) o Estilos enbebidos es mala practica, evitar
+/* Utilizar especificadores (#ID) o Estilos enbebidos o !important es mala practica, evitar
 en lo posible. Usar clases y/o clases dentro de otra, 
 y tambien por Tags (Etiquetas) o Pseudoelementos */
