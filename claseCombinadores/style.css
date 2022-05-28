@@ -6,6 +6,28 @@ cercano a h2 o despues de un h2 */
     color: red;
 } */
 
-h2 ~ p {
+/* HERMANO GENERAL (signo alt 126 o altgr + */
+/* dale color color rojo a cualquier p
+que tengan a h2 como hermanos generales
+independientemente de haber otros h */
+
+/* h2 ~ p {
     color: red;
+} */
+
+/* HIJO (CHILD)
+A toda etiqueta p que sea hija directa de
+una etiqueta div, dale color verde  */
+
+div > p {
+    color: green;
+}
+
+/* DESCENDIENTE */
+/* A todas las etiquetas p que esten contenidos o dentro
+de una etiqueta div (GLOBALMENTE o el mas grande)
+, ponlas de verde */
+
+div p {
+    color: green;
 }
