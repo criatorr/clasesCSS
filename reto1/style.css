@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description {
+    border-style: dashed;
+    display: inline-block;
+}
+
+.description-title {
+    background-color:red;
+    border-radius: 0.2rem;
+    display: inline-block;
+    width: 10rem;
+    height: 5rem;
+    position: relative;
+    margin-bottom: -1.3rem;
+    text-align: center;
+    padding: 1rem;
+    left: 38%
+
+    
+}
+
+.description-text {
+    background-color: grey;
+    border-radius: 0.2rem;
+    display: inline-block;
+    padding: 6rem;
+    text-align: center;
+    display: inline-block;
+    max-height: 20rem;
+    
+}
