@@ -15,3 +15,11 @@
     width: 100px;
     height: 100px;
 }
+
+#two {
+    background-color: green;
+}
+/* Todas las etiquetas por defecto vienen
+en position static */
+/* Position absolute ubica al elemento sobre 
+la etiqueta siguiente*/
