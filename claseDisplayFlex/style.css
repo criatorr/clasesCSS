@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: 0.3rem solid black;
+    /* Ver NOTAS al final */
+    display: flex;          
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1 {
+    background-color: blue;
+}
+.box2 {
+    background-color: blueviolet;
+}
+.box3 {
+    background-color: burlywood;
+}
+.box4 {
+    background-color:cadetblue;
+}
+.box5 {
+    background-color: coral;
+}
+.box6 {
+    background-color: salmon;
+}
+
+/* NOTAS SOBRE DISPLAY FLEX */
+/* Al dar display:flex a un contenedor
+, sus hijos aun que esten en block, se
+ubicaran como si fuese inline block, 
+este comportamiento es por default 
+puede ser cambiado con "flex-direction: " */
+
+/* El flex-direction puede ser: 
+row(q es x default), row-reverse,
+column, column-reverse */
+
+/* SIEMPRE debemos tener un contenedor
+principal para PODER aplicarle
+Display: Flex, de manera que sus hijos
+adquieran el comportamiento elastico */
+
+/* Al contenedor se le puede aplicar tb
+"flex-wrap: wrap 
+Con esto cuando se comprima la pantalla
+los hijos del contenedor se adpataran
+al cambios uno debajo de otro, 
+y sy contenedor Padre, crecerá en dimensiones
+en función de aqeullo.*/
+
+/* El otro estilo para combinar con
+display flex es: 
+"justify-content: "
+que si su valor en center poe ej
+todo el contenido del contenedor padre
+a quien le aplico, va a estar centrado */
+
+/* Si a justify-content le doy valor de
+space-around, creará un espacio entre los hijos. */
+/* Con el valor de space-evenly, 
+se crea un espacio no solo entre ellos,
+sino que tb se iguala al de los extremos
+del contenedor. *//* con space-between
+este espacio en los extremos del contenedor
+será ocupado por los hijos de los extremos */
+/* El valor de flex-start es el por defecto */
+
+/* justify-content puede ser combinado con 
+flex-wrap tambien */
+
