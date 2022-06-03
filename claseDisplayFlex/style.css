@@ -19,17 +19,37 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    /* Segunda Clase: "ALIGN-ITEMS:"*/
+    align-items: stretch;
+    /* align-items: baseline; */
+    /* Este align-items: baseline hace que
+    cada contenededor dentro del padre adpate su
+    altura (height) a la altura de su contenido */
+    height: 50vh;
 }
 
 
 
 .box {
-    width: 10rem;
+    /* width: 10rem; */
+
+    /* Segunda Clase: "ALIGN-ITEMS:" */
+    /* Este height debe ser borrado para que
+    los efectos de align-items del contenedor padre
+    tengan efecto */
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 
 .box1 {
     background-color: blue;
+    /* flex-grow: 1; */
+    /* Con el flex-grow:1 puedo hacer
+    que este contenedor crezca 1 posición
+    HORIZONTALMENTE de forma responsiva*/
+    /* De manera que todo ocupe el 100%
+    del ancho del contenedor padre */
 }
 .box2 {
     background-color: blueviolet;
