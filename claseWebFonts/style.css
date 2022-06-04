@@ -1,0 +1,8 @@
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* BUENAS PRACTICAS */
+/* 1) Solo cargar UNA FUENTE por proyecto */
+/* 2) Importarlas SIEMPRE en la etiqueta head,
+NO hacerlo con @import dentro del CSS */
