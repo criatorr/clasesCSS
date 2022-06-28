@@ -1,0 +1,14 @@
+img {
+    width: 100%; /* Esta linea para imgs es el mejor amigo */
+}
+
+
+/* MALA PRACTICA */
+/* .picture {
+    width: 500px;
+    height: 400px;
+}
+
+img {
+    width: 100%;
+} */
